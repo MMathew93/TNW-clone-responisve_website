@@ -82,3 +82,22 @@ a {
     font-size: 1.2em;
     padding: 7px 20px;
 }
+
+/* Main Content Style */
+.cover-grid {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    grid-template-rows: 265px 265px;
+}
+
+.main-story {
+    height: 100%;
+    width: 66.6%;
+    background-color: royalblue;
+}
+
+.main-image {
+    background-image: url(images/Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-...-5-796x417.png);
+    background-size: cover;
+    background-position: 50%;
+}

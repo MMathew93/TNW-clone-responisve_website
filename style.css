@@ -27,6 +27,21 @@ a {
     color: inherit;
 }
 
+h2{
+    font-size: 24px;
+    color: rgb(255, 68, 34);
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+h2 a:hover {
+    color: black;
+}
+
+.subheader {
+    padding-top: 60px;
+}
+
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++  Icons  +++++++++++++++++++++++++++++++++++++++++++++++++++ */
 .fa-search {
     width: 24px;
@@ -129,23 +144,17 @@ a {
 .container {
     margin: 0 auto;
     max-width: 1192px;
-    padding-top: 60px;
-}
-
-.latest h2{
-    font-size: 24px;
-    color: rgb(255, 68, 34);
-    padding-bottom: 20px;
 }
 
 .story-row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .story-box {
     padding: 10px;
+    max-width: 270px;
 }
 
 .small-story {
@@ -153,11 +162,46 @@ a {
     width: 270px;
 }
 
-.small-story a {
+.small-story > a:first-child {
         display: block;
         width: 100%;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         padding-top: 50%;
+}
+
+.small-story-title {
+    word-wrap: break-word;
+    font-size: 14px;
+}
+
+/* Latest Funding Rounds Grid */
+.subheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.subheader ul {
+    display: flex;
+    font-size: 17px;
+    color: rgb(255, 68, 34);
+    font-weight: 100;
+}
+
+.subheader > li {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.funding-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.funding-box {
+    padding: 10px;
+    max-width: 270px;
+    background-color: red;
 }

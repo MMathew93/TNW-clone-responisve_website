@@ -88,16 +88,36 @@ a {
     display: grid;
     grid-template-columns: 4fr 2fr;
     grid-template-rows: 265px 265px;
+    grid-gap: 8px;
 }
 
 .main-story {
-    height: 100%;
-    width: 66.6%;
-    background-color: royalblue;
+    margin: 2px 0 0 8px;
+    position: relative;
+    grid-row: 1 / span 2;
 }
 
 .main-image {
-    background-image: url(images/Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-...-5-796x417.png);
+    background-image: url('images/Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-...-5-796x417.png');
     background-size: cover;
     background-position: 50%;
+    height: 100%;
+}
+
+.side-story {
+    margin: 2px 8px 0 0;
+}
+
+.side-image1 {
+    background-image: url('images/Snag_38848865-796x427.png');
+    background-size: cover;
+    background-position: 50%;
+    height: 100%;
+}
+
+.side-image2 {
+    background-image: url('images/bezos-blue-horizon-796x419.jpg');
+    background-size: cover;
+    background-position: 50%;
+    height: 100%;
 }

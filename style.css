@@ -1,12 +1,12 @@
-/* Global Style */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++  Global Style Style  +++++++++++++++++++++++++++++++++++++++++++++++++++ */
 *,
 *::before,
 *::after {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
-  font-size: inherit;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: inherit;
 }
 
 html {
@@ -27,14 +27,14 @@ a {
     color: inherit;
 }
 
-/* ICONS */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++  Icons  +++++++++++++++++++++++++++++++++++++++++++++++++++ */
 .fa-search {
     width: 24px;
     height: 24px;
     padding-top: 5px;
 }
 
-/* Header Style */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++  Header Style  +++++++++++++++++++++++++++++++++++++++++++++++++++ */
 .main-nav .top-nav a:hover {
     color: white;
 }
@@ -83,7 +83,9 @@ a {
     padding: 7px 20px;
 }
 
-/* Main Content Style */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++ Main Content Style +++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/*Main Story Grid */
 .cover-grid {
     display: grid;
     grid-template-columns: 4fr 2fr;
@@ -120,4 +122,42 @@ a {
     background-size: cover;
     background-position: 50%;
     height: 100%;
+}
+
+
+/*Latest News Section */
+.container {
+    margin: 0 auto;
+    max-width: 1192px;
+    padding-top: 60px;
+}
+
+.latest h2{
+    font-size: 24px;
+    color: rgb(255, 68, 34);
+    padding-bottom: 20px;
+}
+
+.story-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.story-box {
+    padding: 10px;
+}
+
+.small-story {
+    height: 135px;
+    width: 270px;
+}
+
+.small-story a {
+        display: block;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 50%;
 }

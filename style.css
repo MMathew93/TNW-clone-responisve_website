@@ -185,6 +185,10 @@ h2 a:hover {
 }
 
 /* Latest Funding Rounds Grid */
+.latest-funding {
+    margin-bottom: 56px;
+}
+
 .subheader {
     display: flex;
     justify-content: space-between;
@@ -262,16 +266,21 @@ h2 a:hover {
 .section-row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    margin-bottom: 40px;
 }
 
 .section-box {
-    padding: 10px;
+    padding: 12px;
     position: relative;
+    width: 368px;
+    flex-basis: 33.3333333333%;
+    max-width: 33.3333333333%;
+    margin-bottom: 24px;
 }
 
 .most-popular {
     position: relative;
+
 }
 
 .most-popular>a:first-child {
@@ -309,9 +318,7 @@ h2 a:hover {
     color: white;
 }
 
-.popular-section {
-
-}
+.popular-section {}
 
 .popular-title {
     word-wrap: break-word;
@@ -320,4 +327,39 @@ h2 a:hover {
 
 .latest-popular {
     display: flex;
+    background-color: rgba(255, 68, 34, .06);
+    color: #f42;
+    align-items: center;
+}
+
+.latest-heading {
+    padding: 10px;
+}
+
+.latest-section {
+    padding-bottom: 5px;
+}
+
+.latest-title {
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.latest-image {
+    flex: 0 0 96px;
+    background-color: #000;
+    background-position: 50%;
+    background-size: cover;
+    height: 96px;
+    width: 96px;
+}
+
+.section-headline-title {
+    border-bottom: 1px solid #eee;
+    color: #555;
+    display: block;
+    padding: 6px 0 6px 14px;
+    position: relative;
+    font-size: 12px;
+    font-weight: 100;
 }

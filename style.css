@@ -363,3 +363,47 @@ h2 a:hover {
     font-size: 12px;
     font-weight: 100;
 }
+
+/* Latest Deals Section */
+.deal-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.deal-box {
+    padding: 10px;
+    max-width: 270px;
+}
+
+.deal-story {
+    height: 135px;
+    width: 270px;
+}
+
+.deal-story>a:first-child {
+    display: block;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50%;
+}
+
+.deal-story-title {
+    word-wrap: break-word;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.deal-price {
+
+}
+
+.deal-price-old {
+
+}
+
+.deal-price-new {
+    
+}

@@ -230,7 +230,7 @@ h2 a:hover {
 .investment-deets {
     background-color: rgba(255, 68, 34, 0.1);
     font-size: 16px;
-    padding: 5px 10px 15px 85px;
+    padding: 5px 10px 10px 85px;
 }
 
 .investment-deets>h5 {
@@ -256,4 +256,68 @@ h2 a:hover {
 
 .link {
     color: #999;
+}
+
+/* Most Popular Section */
+.section-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section-box {
+    padding: 10px;
+    position: relative;
+}
+
+.most-popular {
+    position: relative;
+}
+
+.most-popular>a:first-child {
+    display: block;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 75%;
+}
+
+.most-popular a:last-child:hover {
+    text-decoration: underline;
+}
+
+.gradient {
+    background: transparent url(images/image-gradient.png) no-repeat;
+    background-size: auto;
+    background-size: 100% 100%;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.popular-heading-container {
+    bottom: 0;
+    left: 0;
+    padding: 14px;
+    right: 0;
+    z-index: 3;
+    position: absolute;
+    color: white;
+}
+
+.popular-section {
+
+}
+
+.popular-title {
+    word-wrap: break-word;
+    font-size: 14px;
+}
+
+.latest-popular {
+    display: flex;
 }

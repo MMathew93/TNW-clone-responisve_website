@@ -57,6 +57,41 @@ h2 a:hover {
     padding: 10px;
 }
 
+.fa-facebook-square {
+    padding-top: 5px;
+    color: white;
+}
+
+.fa-twitter {
+    padding-top: 5px;
+    color: white;
+}
+
+.fa-youtube {
+    padding-top: 5px;
+    color: white;
+}
+
+.fa-instagram {
+    padding-top: 5px;
+    color: white;
+}
+
+.fa-pinterest-p {
+    padding-top: 5px;
+    color: white;
+}
+
+.fa-rss {
+    padding-top: 5px;
+    color: white;
+}
+
+.fa-envelope {
+    padding-top: 5px;
+    color: white;
+}
+
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++  Header Style  +++++++++++++++++++++++++++++++++++++++++++++++++++ */
 .main-nav .top-nav a:hover {
     color: white;
@@ -200,6 +235,7 @@ h2 a:hover {
     font-size: 17px;
     color: rgb(255, 68, 34);
     font-weight: 100;
+    padding-right: 10px;
 }
 
 .subheader>li {
@@ -374,20 +410,17 @@ h2 a:hover {
 .deal-box {
     padding: 10px;
     max-width: 270px;
-}
-
-.deal-story {
-    height: 135px;
-    width: 270px;
+    flex-basis: 25%;
+    max-width: 25%;
 }
 
 .deal-story>a:first-child {
     display: block;
     width: 100%;
-    background-position: center;
+    background-position: 0 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 50%;
+    padding-top: 74.5%;
 }
 
 .deal-story-title {
@@ -401,9 +434,76 @@ h2 a:hover {
 }
 
 .deal-price-old {
-
+    text-decoration: line-through;
+    font-size: 13px;
+    margin-right: 4px;
+    color: #aaa;
 }
 
 .deal-price-new {
-    
+    font-size: 16px;
+    color: #555;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++ Footer Content Style +++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.footer {
+    text-align: center;
+}
+
+.footer-links {
+    background: #131313;
+    padding: 42px 0 28px 0;
+}
+
+.footer-wrapper {
+    margin: 0 auto;
+    max-width: 1192px;
+    padding: 0 20px;
+}
+
+.footer-links-social {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer-links-social li .post-body a strong, 
+.footer-links-social li a, 
+.post-body a .footer-links-social li strong {
+    background: #333;
+    border-radius: 50%;
+    display: block;
+    height: 40px;
+    padding: 12px;
+    text-align: center;
+    width: 40px;
+}
+
+.footer-links-social li {
+    margin: 0 8px 0 8px;
+}
+
+.footer-links-menu li{
+    margin: 0 6px;
+}
+
+.footer-links-menu li .post-body a strong, 
+.footer-links-menu li a, 
+.post-body a .footer-links-menu li strong {
+    color: #aaa;
+    font-size: 12px;
+}
+
+.footer-legal {
+    background: black;
+    padding: 39px 0 39px 0;
+    color: white;
+    font-size: 12px;
+}
+
+.footer-legal-wrapper {
+    margin: 0 auto;
+    max-width: 1192px;
+    padding: 0 20px;
 }

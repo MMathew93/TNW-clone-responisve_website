@@ -401,6 +401,10 @@ h2 a:hover {
 }
 
 /* Latest Deals Section */
+.deals {
+    margin-bottom: 60px;
+}
+
 .deal-row {
     display: flex;
     flex-wrap: wrap;
@@ -408,7 +412,7 @@ h2 a:hover {
 }
 
 .deal-box {
-    padding: 10px;
+    padding: 15px;
     max-width: 270px;
     flex-basis: 25%;
     max-width: 25%;
